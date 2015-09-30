@@ -23,5 +23,4 @@ Wilddog，并把这些技术引入到自己的应用程序！
 * [Wilddog FAQ](https://z.wilddog.com/faq/qa)
 
 ## License
-MIT
-http://wilddog.mit-license.org/
+[MIT](http://wilddog.mit-license.org/)
