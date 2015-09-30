@@ -6,10 +6,10 @@
 Wilddog，并把这些技术引入到自己的应用程序！
 
 
-## 本地运行
+## 克隆代码
 
-    git clone <demo-ios-danmu url>
-打开工程文件 Barrage.xcodeproj ，点击运行即可。
+    git clone git@github.com:WildDogTeam/demo-ios-danmu.git
+
 
 
 
