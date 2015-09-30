@@ -10,7 +10,9 @@ Wilddog，并把这些技术引入到自己的应用程序！
 
     git clone git@github.com:WildDogTeam/demo-ios-danmu.git
 
+### 注册 Wilddog
 
+Wildchat 需要 Wilddog 来同步和存储数据。您可以在这里[注册](https://www.wilddog.com/my-account/signup)一个免费帐户。
 
 
 ## 相关文档
