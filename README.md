@@ -6,7 +6,7 @@
 Wilddog，并把这些技术引入到自己的应用程序！
 
 
-## 克隆代码
+### 克隆代码
 
     git clone git@github.com:WildDogTeam/demo-ios-danmu.git
 
@@ -15,7 +15,7 @@ Wilddog，并把这些技术引入到自己的应用程序！
 Wildchat 需要 Wilddog 来同步和存储数据。您可以在这里[注册](https://www.wilddog.com/my-account/signup)一个免费帐户。
 
 
-## 相关文档
+### 相关文档
 
 * [Wilddog 概览](https://z.wilddog.com/overview/guide)
 * [iOS SDK快速入门](https://z.wilddog.com/ios/quickstart)
@@ -24,6 +24,6 @@ Wildchat 需要 Wilddog 来同步和存储数据。您可以在这里[注册](ht
 * [下载页面](https://www.wilddog.com/download/)
 * [Wilddog FAQ](https://z.wilddog.com/faq/qa)
 
-## License
+### License
 MIT
 http://wilddog.mit-license.org/
