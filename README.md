@@ -12,7 +12,7 @@ Wilddog，并把这些技术引入到自己的应用程序！
 
 ### 注册 Wilddog
 
-Wildchat 需要 Wilddog 来同步和存储数据。您可以在这里[注册](https://www.wilddog.com/my-account/signup)一个免费帐户。
+demo-ios-danmu 需要 Wilddog 来同步和存储数据。您可以在这里[注册](https://www.wilddog.com/my-account/signup)一个免费帐户。
 
 ## 相关文档
 
@@ -27,10 +27,3 @@ Wildchat 需要 Wilddog 来同步和存储数据。您可以在这里[注册](ht
 MIT
 http://wilddog.mit-license.org/
 
-## 感谢 Thanks
-
-We would like to thank the following projects for helping us achieve our goals:
-
-Open Source:
-
-* [ios-crowd-weather](https://github.com/firebase/ios-crowd-weather) weather is a IOS app that lets users post small messages called sparks to their feed. You can follow other users, and their sparks will appear on your feed
