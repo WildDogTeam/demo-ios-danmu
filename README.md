@@ -24,4 +24,13 @@ Wildchat 需要 Wilddog 来同步和存储数据。您可以在这里[注册](ht
 * [Wilddog FAQ](https://z.wilddog.com/faq/qa)
 
 ## License
-[MIT](http://wilddog.mit-license.org/)
+MIT
+http://wilddog.mit-license.org/
+
+## 感谢 Thanks
+
+We would like to thank the following projects for helping us achieve our goals:
+
+Open Source:
+
+* [ios-crowd-weather](https://github.com/firebase/ios-crowd-weather) weather is a IOS app that lets users post small messages called sparks to their feed. You can follow other users, and their sparks will appear on your feed
