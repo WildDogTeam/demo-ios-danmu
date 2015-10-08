@@ -1,9 +1,6 @@
 # demo-ios-danmu 弹幕
 
-这个IOS APP 展示了如何使用[WIlddog SDK]来创建一个共享的弹幕，  
-多个用户可以运行应用程序并展示在一个弹幕上。本实施例是为了展  
-示如何适应单个用户的应用是协作与Wilddog的帮助。创建您自己的  
-Wilddog，并把这些技术引入到自己的应用程序！
+demo-ios-danmu 是一个基于 Wilddog iOS SDK 实现的弹幕。
 
 
 ## 本地运行
@@ -26,4 +23,3 @@ demo-ios-danmu 需要 Wilddog 来同步和存储数据。您可以在这里[注�
 ## License
 MIT
 http://wilddog.mit-license.org/
-
