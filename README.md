@@ -7,7 +7,7 @@ demo-ios-danmu 是一个基于 Wilddog iOS SDK 实现的弹幕。
 
     git clone git@github.com:WildDogTeam/demo-ios-danmu.git
 
-### 注册 Wilddog
+## 注册 Wilddog
 
 demo-ios-danmu 需要 Wilddog 来同步和存储数据。您可以在这里[注册](https://www.wilddog.com/my-account/signup)一个免费帐户。
 
