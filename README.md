@@ -29,10 +29,6 @@ Wildchat 需要 Wilddog 来同步和存储数据。您可以在这里[注册](ht
 * [下载页面](https://www.wilddog.com/download/)
 * [Wilddog FAQ](https://z.wilddog.com/faq/qa)
 
-<<<<<<< HEAD
-## License
-=======
 ### License
->>>>>>> b7b836879a3107dc6445baa78f3a2546a8ada293
 MIT
 http://wilddog.mit-license.org/
