@@ -1,0 +1,5 @@
+language: objective-c
+
+script:
+- xctool -project Barrage.xcodeproj -scheme Barrage -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
