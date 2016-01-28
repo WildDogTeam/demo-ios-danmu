@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		398E0BA71BB287AB0064FDB7 /* Wilddog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398E0BA51BB2879F0064FDB7 /* Wilddog.framework */; };
 		398E0BA81BB287AB0064FDB7 /* Wilddog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 398E0BA51BB2879F0064FDB7 /* Wilddog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39F726FE1C5A14A2003460F0 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F726FD1C5A14A2003460F0 /* JavaScriptCore.framework */; };
+		39F727001C5A14A8003460F0 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F726FF1C5A14A8003460F0 /* libsqlite3.0.tbd */; };
 		EAF819E01B622D880089FADE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF819DF1B622D880089FADE /* main.m */; };
 		EAF819E31B622D880089FADE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF819E21B622D880089FADE /* AppDelegate.m */; };
 		EAF819E61B622D880089FADE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF819E51B622D880089FADE /* ViewController.m */; };
@@ -44,6 +46,8 @@
 
 /* Begin PBXFileReference section */
 		398E0BA51BB2879F0064FDB7 /* Wilddog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Wilddog.framework; sourceTree = "<group>"; };
+		39F726FD1C5A14A2003460F0 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		39F726FF1C5A14A8003460F0 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		EAF819DA1B622D880089FADE /* Barrage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barrage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF819DE1B622D880089FADE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF819DF1B622D880089FADE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39F727001C5A14A8003460F0 /* libsqlite3.0.tbd in Frameworks */,
+				39F726FE1C5A14A2003460F0 /* JavaScriptCore.framework in Frameworks */,
 				398E0BA71BB287AB0064FDB7 /* Wilddog.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,6 +87,8 @@
 		EAF819D11B622D880089FADE = {
 			isa = PBXGroup;
 			children = (
+				39F726FF1C5A14A8003460F0 /* libsqlite3.0.tbd */,
+				39F726FD1C5A14A2003460F0 /* JavaScriptCore.framework */,
 				EAF819DC1B622D880089FADE /* Barrage */,
 				EAF819F61B622D880089FADE /* BarrageTests */,
 				EAF819DB1B622D880089FADE /* Products */,
