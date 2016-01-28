@@ -21,13 +21,11 @@ Wildchat 需要 Wilddog 来同步和存储数据。您可以在这里[注册](ht
 
 ### 相关文档
 
-
 * [Wilddog 概览](https://z.wilddog.com/overview/introduction)
-* [iOS SDK快速入门](https://z.wilddog.com/ios/quickstart)
-* [iOS SDK 开发向导](https://z.wilddog.com/ios/quickstart)
-* [iOS SDK API](https://z.wilddog.com/ios/api)
+* [IOS SDK快速入门](https://z.wilddog.com/ios/quickstart)
+* [IOS SDK API](https://z.wilddog.com/ios/api)
 * [下载页面](https://www.wilddog.com/download/)
-* [Wilddog FAQ](https://z.wilddog.com/faq/qa)
+* [Wilddog FAQ](https://z.wilddog.com/questions)
 
 ### License
 MIT
