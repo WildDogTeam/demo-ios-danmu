@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <Wilddog/Wilddog.h>
+#import "Wilddog.h"
 #define kWilddogUrl @"https://danmu.wilddogio.com/message"
 
 @interface ViewController ()
