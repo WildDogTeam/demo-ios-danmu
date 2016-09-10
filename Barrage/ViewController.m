@@ -15,7 +15,7 @@
     CGRect _originFrame;
 }
 @property (weak, nonatomic) IBOutlet UITextField *textField;
-@property (nonatomic,strong) Wilddog *wilddog;
+@property (nonatomic,strong) WDGSyncReference *wilddog;
 
 @property (nonatomic,strong) NSMutableArray *snaps;
 @end
@@ -25,12 +25,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _wilddog = [[Wilddog alloc] initWithUrl:kWilddogUrl];
+    //初始化 WDGApp
+    WDGOptions *option = [[WDGOptions alloc] initWithSyncURL:kWilddogUrl];
+    [WDGApp configureWithOptions:option];
+    //获取一个指向根节点的 WDGSyncReference 实例
+    _wilddog = [[WDGSync sync] reference];
     
     _snaps = [[NSMutableArray alloc] init];
     _originFrame = self.view.frame;
 
-    [self.wilddog observeEventType:WEventTypeChildAdded withBlock:^(WDataSnapshot *snapshot) {
+    [self.wilddog observeEventType:WDGDataEventTypeChildAdded withBlock:^(WDGDataSnapshot *snapshot) {
         
         [self sendLabel:snapshot];
         [self.snaps addObject:snapshot];
@@ -47,11 +51,11 @@
         return;
     }
     int index = arc4random()%(self.snaps.count-1);
-    WDataSnapshot *snapshot = [self.snaps objectAtIndex:index];
+    WDGDataSnapshot *snapshot = [self.snaps objectAtIndex:index];
     [self sendLabel:snapshot];
 }
 
-- (UILabel *)sendLabel:(WDataSnapshot *)snapshot
+- (UILabel *)sendLabel:(WDGDataSnapshot *)snapshot
 {
     float top = (arc4random()% (int)self.view.frame.size.height)-100;
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width, top, 100, 30)];
